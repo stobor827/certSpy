@@ -1,15 +1,8 @@
-# root-cert-stats
+# certSpy
 
-## What it does ##
+Goal is to have an icon that changes color based on if a specific root cert is in use.
+May also add request blocking based on domain matching.
 
-The extension includes:
+I'm suspicious of MITM appliances and want to know if my employer turns one on before trusting the OS store.
 
-* a background page which collects stats about the trusted root certs used when
-browsing the web. It records the subject name of each root cert, and how many
-times that particular root cert was used to establish a TLS connection.
-
-* a browser action with a popup. The popup displays the collected stats.
-
-## What it shows ##
-
-* how to use the webRequest.getSecurityInfo() API.
+Started from the root-cert-stats example here: https://github.com/mdn/webextensions-examples
