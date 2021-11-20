@@ -21,5 +21,6 @@
     "gecko": {
       "strict_min_version": "62.0b5"
     }
-  }
+  },
+  "web_accessible_resources":["popup.html"]
 }
